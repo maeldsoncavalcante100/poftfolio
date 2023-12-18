@@ -203,6 +203,7 @@ button:hover {
 
 /* Media query para telas menores */
 
+
 @media only screen and (max-width: 768px) {
   nav {
     padding: 10px;
@@ -217,9 +218,9 @@ button:hover {
     margin: 10px 0;
   }
 
-  .image-container img {
-    width: 100%; /* Ajuste o tamanho da imagem conforme necessário */
+  .sites .img img {
+    width: 100%;
     height: auto;
-    max-width: 100%; /* Adicione esta linha para garantir que a largura não ultrapasse o tamanho original da imagem */
+    max-width: 100%;
   }
 }
