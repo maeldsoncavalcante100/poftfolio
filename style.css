@@ -2,14 +2,14 @@
   padding: 0;
   margin: 0;
   border: 0;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 body {
   padding: 20px;
   margin: 15px;
   background-color: #000000;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: "Playfair Display", sans-serif;
 }
 
 nav {
@@ -52,7 +52,7 @@ nav a:hover {
   color: #ffffff;
   font-size: 50px;
   margin: 50px;
-  padding-left: 10px
+  padding-left: 10px;
 }
 
 .image-container {
@@ -70,7 +70,6 @@ nav a:hover {
   width: 100%;
   display: block;
   border-radius: 70px;
-
 }
 
 .linha-branca {
@@ -85,7 +84,6 @@ section::after {
   display: table;
   clear: both;
 }
-
 
 #sobre {
   padding: 20px;
@@ -108,7 +106,7 @@ section::after {
   color: #ffffff;
   font-size: 30px;
   margin: 50px;
-  padding-left: 10px
+  padding-left: 10px;
 }
 
 .sites {
@@ -138,12 +136,11 @@ a {
   margin-left: 300px;
 }
 
-#contato{
+#contato {
   color: #ffffff;
   font-size: 25px;
   margin: 20px;
   padding-right: 15px;
-
 }
 
 form {
@@ -151,7 +148,7 @@ form {
   padding: 25px;
   border-radius: 8px;
   margin-top: 45px;
-  box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   max-width: 500px;
   width: 100%;
 }
@@ -192,17 +189,17 @@ button:hover {
   background-color: #45a049;
 }
 
-#footer{
+#footer {
   margin: 25px;
   padding: 15px;
   text-align: center;
-
 }
 
 /* Media Query */
 
+/* Media query para telas menores */
 
-
+/* Media query para telas menores */
 
 @media only screen and (max-width: 768px) {
   nav {
@@ -218,8 +215,13 @@ button:hover {
     margin: 10px 0;
   }
 
-  .sites .img img {
+  .sites .img {
     width: 100%;
+    margin-left: 0px;
+  }
+
+  .sites img {
+    width: 10px;
     height: auto;
     max-width: 100%;
   }
